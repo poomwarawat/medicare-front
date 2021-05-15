@@ -1,0 +1,11 @@
+.chat-doctor-image {
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.doctor-information span {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 10px;
+}

@@ -1,0 +1,32 @@
+.pre-information-container {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+.pre-information-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
+.submit-preinformat {
+  width: 100%;
+  height: 50px;
+  background-color: #327ec8;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  height: 50px;
+  border: 2px solid #327ec8;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.submit-preinformat:hover {
+  border: 2px solid #327ec8;
+  background-color: white;
+  color: #327ec8;
+}
+.submit-preinformat:active {
+  background-color: rgb(240, 240, 240);
+}

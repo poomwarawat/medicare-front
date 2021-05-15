@@ -1,0 +1,23 @@
+.waiting-room-card {
+  width: 300px;
+  height: 60px;
+  display: flex;
+}
+.waiting-room-card-left {
+  width: 60px;
+  height: 60px;
+}
+.queue-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #9be09b;
+}
+.waiting-room-card-right {
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.waiting-room-card-right span {
+  font-weight: 800;
+}

@@ -1,0 +1,90 @@
+.nav-signup {
+  background-color: #327ec8;
+  height: 5vh;
+}
+.create-account-left {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../assets/images/create-account-left\ -\ @2x.png");
+  position: relative;
+}
+.ca-left-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  text-align: center;
+}
+.ca-left-content h1 {
+  color: white;
+}
+.join-doctor-btn {
+  width: 70%;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 30px;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-bottom: 7px;
+  font-weight: 800;
+  transition: 0.3s;
+}
+.join-doctor-btn:hover {
+  background-color: white;
+  color: #327ec8;
+}
+.join-doctor-btn:active {
+  background-color: rgb(224, 224, 224);
+  border: 2px solid rgb(224, 224, 224);
+}
+.col,
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.create-account,
+.create-account-doctor {
+  width: 100%;
+  height: 95vh;
+}
+.date-picker {
+  padding-top: 3px !important;
+}
+.create-account-btn {
+  width: 250px;
+  background-color: #327ec8;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  height: 50px;
+  border: 2px solid #327ec8;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.create-account-btn:hover {
+  border: 2px solid #327ec8;
+  background-color: white;
+  color: #327ec8;
+}
+.create-account-btn:active {
+  background-color: rgb(240, 240, 240);
+}
+.create-doctor-left {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+}
+.create-doctor-left div {
+  width: 480px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.create-doctor-left div img {
+  width: 100%;
+  height: 100%;
+}
